@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family:  sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/bg-intro-desktop.png");
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(236, 67, 95, 0.445);
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.text{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.text h1{
+   color: white;
+   margin-top: 100px;
+   margin-left: 200px;
+   font-weight: 900;
+   margin-bottom: 50px;
+}
+.text p{
+    color: white;
+    line-height: 20px;
+    margin-left: 200px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 569px) {
+
+}
+
+@media screen and (max-width: 410px) {
+
+}
